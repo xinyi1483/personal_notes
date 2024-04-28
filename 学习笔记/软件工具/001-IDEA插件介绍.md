@@ -69,7 +69,7 @@ Maven Helper：提供 pom 文件的包依赖分析和调试
 
 
 
-![20240427215720](https://raw.githubusercontent.com/xinyi1483/image/main/2024/20240427215720.jpg)
+![20240427215720](https://cdn.jsdelivr.net/gh/xinyi1483/image@main/2024/20240427215720.jpg)
 
 
 
@@ -77,7 +77,7 @@ Maven Helper：提供 pom 文件的包依赖分析和调试
 
 aiXcoder：一款国产代码开发工具，提供了比较强大的代码补全、预测的功能，它的宗旨就是让我们少些代码，能自动生成的绝不手写
 
-![20240427215919](https://raw.githubusercontent.com/xinyi1483/image/main/2024/20240427215919.webp)
+![20240427215919](https://cdn.jsdelivr.net/gh/xinyi1483/image@main/2024/20240427215919.webp)
 
 
 
@@ -90,7 +90,7 @@ aiXcoder：一款国产代码开发工具，提供了比较强大的代码补全
 
 
 
-![20240427220248](https://raw.githubusercontent.com/xinyi1483/image/main/2024/20240427220248.png)
+![20240427220248](https://cdn.jsdelivr.net/gh/xinyi1483/image@main/2024/20240427220248.png)
 
 
 
@@ -128,7 +128,7 @@ aiXcoder：一款国产代码开发工具，提供了比较强大的代码补全
 
 代码迷你缩放图插件
 
-![20240427220043](https://raw.githubusercontent.com/xinyi1483/image/main/2024/20240427220043.png)
+![20240427220043](https://cdn.jsdelivr.net/gh/xinyi1483/image@main/2024/20240427220043.png)
 
 
 
@@ -248,7 +248,7 @@ Material Theme UI：使用插件后界面图标样式都会变的很漂亮。
 
 ### 1、取消tab页单行显示
 
-![20240427215948](https://raw.githubusercontent.com/xinyi1483/image/main/2024/20240427215948.jpg)
+![20240427215948](https://cdn.jsdelivr.net/gh/xinyi1483/image@main/2024/20240427215948.jpg)
 
 
 
@@ -258,7 +258,7 @@ Material Theme UI：使用插件后界面图标样式都会变的很漂亮。
 
 ​	LiveTemplates
 
-![20240427215805](https://raw.githubusercontent.com/xinyi1483/image/main/2024/20240427215805.jpg)
+![20240427215805](https://cdn.jsdelivr.net/gh/xinyi1483/image@main/2024/20240427215805.jpg)
 
 
 
@@ -270,7 +270,7 @@ Material Theme UI：使用插件后界面图标样式都会变的很漂亮。
 
 
 
-<img src="https://raw.githubusercontent.com/xinyi1483/image/main/2024/20240427215442.jpg" alt="001-AutoImport" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/xinyi1483/image@main/2024/20240427215442.jpg" alt="001-AutoImport" style="zoom:80%;" />
 
 
 
@@ -282,7 +282,7 @@ Material Theme UI：使用插件后界面图标样式都会变的很漂亮。
 
 ​		VersionControl
 
-![20240427215849](https://raw.githubusercontent.com/xinyi1483/image/main/2024/20240427215849.jpg)
+![20240427215849](https://cdn.jsdelivr.net/gh/xinyi1483/image@main/2024/20240427215849.jpg)
 
 
 
@@ -296,7 +296,7 @@ Material Theme UI：使用插件后界面图标样式都会变的很漂亮。
 
 settings->Editor->Code Completion->Show the documentation popup in 500 ms
 
-![20240427220014](https://raw.githubusercontent.com/xinyi1483/image/main/2024/20240427220014.jpg)
+![20240427220014](https://cdn.jsdelivr.net/gh/xinyi1483/image@main/2024/20240427220014.jpg)
 
 
 
@@ -310,7 +310,7 @@ settings->Editor->Code Completion->Show the documentation popup in 500 ms
 
 file -> settings -> Editor -> File Encodings
 
-![20240427220115](https://raw.githubusercontent.com/xinyi1483/image/main/2024/20240427220115.png)
+![20240427220115](https://cdn.jsdelivr.net/gh/xinyi1483/image@main/2024/20240427220115.png)
 
 
 
@@ -320,7 +320,7 @@ file -> settings -> Editor -> File Encodings
 
 ### 7、显示方法注释
 
-![20240427220139](https://raw.githubusercontent.com/xinyi1483/image/main/2024/20240427220139.png)
+![20240427220139](https://cdn.jsdelivr.net/gh/xinyi1483/image@main/2024/20240427220139.png)
 
 
 
@@ -332,11 +332,11 @@ file -> settings -> Editor -> File Encodings
 
 配置idea自动编译
 
-![20240427220208](https://raw.githubusercontent.com/xinyi1483/image/main/2024/20240427220208.png)
+![20240427220208](https://cdn.jsdelivr.net/gh/xinyi1483/image@main/2024/20240427220208.png)
 
 
 
-![20240427220228](https://raw.githubusercontent.com/xinyi1483/image/main/2024/20240427220228.png)
+![20240427220228](https://cdn.jsdelivr.net/gh/xinyi1483/image@main/2024/20240427220228.png)
 
 
 
