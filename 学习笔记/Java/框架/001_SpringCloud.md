@@ -122,7 +122,7 @@
                 <version>${mybatis.spring.boot.version}</version>
             </dependency>
 
-            <!--log4j-->
+            <!--log4j2-->
             <dependency> <!-- 引入log4j2依赖 -->
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-log4j2</artifactId>
@@ -181,9 +181,76 @@ logging:
 
 
 
+#### 2.2.1 spring 禁用 bootstrap 配置文件
+
+在 springboot 2.5 之后的版本，官方禁用了 bootst 配置文件，可以通过下面两种方法进行处理
+
+1.配置 `spring.configimport` 
+
+```yaml
+server:
+  port: 8001
+
+spring:
+  application:
+    name: system
+  profiles:
+    active: dev
+  config:
+    import:
+      - optional:nacos:${spring.application.name}-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.110.82:3307/shubao?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: shubao
+    password: xinyi1483
+    hikari:
+      connection-timeout: 10000
+      validation-timeout: 3000
+      idle-timeout: 60000
+      login-timeout: 5
+      max-lifetime: 60000
+      maximum-pool-size: 10
+      minimum-idle: 5
+      read-only: false
+  # nacos 注册中心配置
+  cloud:
+    nacos:
+      discovery:
+        enabled: true
+        # 服务注册地址
+        server-addr: 192.168.110.82:8848
+        namespace: efba2a57-9104-4ccf-8165-2ae9dfbbe6d4
+      config:
+        enabled: true
+        server-addr: 192.168.110.82:8848
+        # 命名空间
+        namespace: efba2a57-9104-4ccf-8165-2ae9dfbbe6d4
+        # 分组
+        group: shubao
+        file-extension: yaml
+        prefix: ${spring.application.name}
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: cn.xinyi1483.shubao.entity  # 所有 po 所在包
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+#日志配置 无特殊需求无需更改
+logging:
+  config: classpath:log4j2-dev.xml
+
+```
 
 
 
+2.重新引入 bootstrap 依赖
 
-
+```xml
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-bootstrap</artifactId>
+</dependency>
+```
 
